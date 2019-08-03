@@ -1,0 +1,17 @@
+#library
+*.d
+*.o
+
+# excute
+*.exe
+
+#cpp
+*.workspace
+*.project
+
+#codelite
+*.txt
+*.mk
+/.codelite
+*.json
+Makefile
