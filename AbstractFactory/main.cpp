@@ -48,14 +48,14 @@ private:
 
 class Factory
 {
-protected:
-	virtual Mouse* CreateMouse();
-	virtual Keyboard* CreateKeyboard();
+public:
+	virtual Mouse* CreateMouse(){return NULL;};
+	virtual Keyboard* CreateKeyboard(){return NULL;};
 };
 
 class DellFactory : public Factory
 {
-public:
+private:
 	Mouse* CreateMouse(){
 		return new DellMouse;
 	}
@@ -66,7 +66,7 @@ public:
 
 class HpFactory : public Factory
 {
-public:
+private:
 	Mouse* CreateMouse(){
 		return new HpMouse;
 	}
@@ -77,11 +77,11 @@ public:
 
 int main()
 {
-	DellFactory dellfactory;
-	Mouse* dellmouse = dellfactory.CreateMouse();
-	dellmouse->SayHi();
-	Keyboard* dellkeyboard = dellfactory.CreateKeyboard();
-	dellkeyboard->SayHello();
+	Factory* factory = new DellFactory;
+	Mouse* mouse = factory->CreateMouse();
+	mouse->SayHi();
+	Keyboard* keyboard = factory->CreateKeyboard();
+	keyboard->SayHello();
 	
 	return 0;
 }
