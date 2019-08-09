@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="DesignPattern" Database="" Version="10.0.0">
+  <Project Name="AbstractFactory" Path="AbstractFactory/AbstractFactory.project" Active="No"/>
+  <Project Name="SimpleFactory" Path="SimpleFactory/SimpleFactory.project" Active="No"/>
+  <Project Name="Singleton" Path="Singleton/Singleton.project" Active="No"/>
+  <Project Name="Facade" Path="Facade/Facade.project" Active="No"/>
+  <Project Name="Builder" Path="Builder/Builder.project" Active="No"/>
+  <Project Name="Adapter" Path="Adapter/Adapter.project" Active="No"/>
+  <Project Name="Phototype" Path="Phototype/Phototype.project" Active="No"/>
+  <Project Name="Bridge" Path="Bridge/Bridge.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="AbstractFactory" ConfigName="Debug"/>
+      <Project Name="SimpleFactory" ConfigName="Debug"/>
+      <Project Name="Singleton" ConfigName="Debug"/>
+      <Project Name="Facade" ConfigName="Debug"/>
+      <Project Name="Builder" ConfigName="Debug"/>
+      <Project Name="Phototype" ConfigName="Debug"/>
+      <Project Name="Adapter" ConfigName="Debug"/>
+      <Project Name="Phototype" ConfigName="Debug"/>
+      <Project Name="Bridge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="AbstractFactory" ConfigName="Release"/>
+      <Project Name="SimpleFactory" ConfigName="Release"/>
+      <Project Name="Singleton" ConfigName="Release"/>
+      <Project Name="Facade" ConfigName="Release"/>
+      <Project Name="Builder" ConfigName="Release"/>
+      <Project Name="Phototype" ConfigName="Release"/>
+      <Project Name="Adapter" ConfigName="Release"/>
+      <Project Name="Phototype" ConfigName="Release"/>
+      <Project Name="Bridge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

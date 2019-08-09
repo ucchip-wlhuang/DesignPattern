@@ -5,9 +5,6 @@
 # excute
 *.exe
 
-#cpp
-*.workspace
-
 #codelite
 *.txt
 *.mk
