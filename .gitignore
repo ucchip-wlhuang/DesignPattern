@@ -7,7 +7,6 @@
 
 #cpp
 *.workspace
-*.project
 
 #codelite
 *.txt
