@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Bridge" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="Filter" Version="10.0.0" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,6 +93,6 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Bridge.cpp"/>
+    <File Name="Filter.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
