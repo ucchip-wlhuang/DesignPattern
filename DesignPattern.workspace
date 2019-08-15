@@ -10,7 +10,8 @@
   <Project Name="Bridge" Path="Bridge/Bridge.project" Active="No"/>
   <Project Name="Filter" Path="Filter/Filter.project" Active="No"/>
   <Project Name="Composite" Path="Composite/Composite.project" Active="No"/>
-  <Project Name="Decorator" Path="Decorator/Decorator.project" Active="Yes"/>
+  <Project Name="Decorator" Path="Decorator/Decorator.project" Active="No"/>
+  <Project Name="Flyweight" Path="Flyweight/Flyweight.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -26,6 +27,7 @@
       <Project Name="Filter" ConfigName="Debug"/>
       <Project Name="Composite" ConfigName="Debug"/>
       <Project Name="Decorator" ConfigName="Debug"/>
+      <Project Name="Flyweight" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -41,6 +43,7 @@
       <Project Name="Filter" ConfigName="Release"/>
       <Project Name="Composite" ConfigName="Release"/>
       <Project Name="Decorator" ConfigName="Release"/>
+      <Project Name="Flyweight" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
