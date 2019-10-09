@@ -13,7 +13,9 @@
   <Project Name="Decorator" Path="Decorator/Decorator.project" Active="No"/>
   <Project Name="Flyweight" Path="Flyweight/Flyweight.project" Active="No"/>
   <Project Name="Proxy" Path="Proxy/Proxy.project" Active="No"/>
-  <Project Name="Chain_of_Responsibility" Path="Chain_of_Responsibility/Chain_of_Responsibility.project" Active="Yes"/>
+  <Project Name="Chain_of_Responsibility" Path="Chain_of_Responsibility/Chain_of_Responsibility.project" Active="No"/>
+  <Project Name="Command" Path="Command/Command.project" Active="No"/>
+  <Project Name="Interpreter" Path="Interpreter/Interpreter.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -32,6 +34,8 @@
       <Project Name="Flyweight" ConfigName="Debug"/>
       <Project Name="Proxy" ConfigName="Debug"/>
       <Project Name="Chain_of_Responsibility" ConfigName="Debug"/>
+      <Project Name="Command" ConfigName="Debug"/>
+      <Project Name="Interpreter" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -50,6 +54,8 @@
       <Project Name="Flyweight" ConfigName="Release"/>
       <Project Name="Proxy" ConfigName="Release"/>
       <Project Name="Chain_of_Responsibility" ConfigName="Release"/>
+      <Project Name="Command" ConfigName="Release"/>
+      <Project Name="Interpreter" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
