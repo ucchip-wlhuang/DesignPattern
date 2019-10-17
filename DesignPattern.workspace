@@ -16,7 +16,8 @@
   <Project Name="Chain_of_Responsibility" Path="Chain_of_Responsibility/Chain_of_Responsibility.project" Active="No"/>
   <Project Name="Command" Path="Command/Command.project" Active="No"/>
   <Project Name="Interpreter" Path="Interpreter/Interpreter.project" Active="No"/>
-  <Project Name="Iterator" Path="Iterator/Iterator.project" Active="Yes"/>
+  <Project Name="Iterator" Path="Iterator/Iterator.project" Active="No"/>
+  <Project Name="Mediator" Path="Mediator/Mediator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -38,6 +39,7 @@
       <Project Name="Command" ConfigName="Debug"/>
       <Project Name="Interpreter" ConfigName="Debug"/>
       <Project Name="Iterator" ConfigName="Debug"/>
+      <Project Name="Mediator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -59,6 +61,7 @@
       <Project Name="Command" ConfigName="Release"/>
       <Project Name="Interpreter" ConfigName="Release"/>
       <Project Name="Iterator" ConfigName="Release"/>
+      <Project Name="Mediator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
