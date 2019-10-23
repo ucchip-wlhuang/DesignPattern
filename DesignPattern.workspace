@@ -18,7 +18,8 @@
   <Project Name="Interpreter" Path="Interpreter/Interpreter.project" Active="No"/>
   <Project Name="Iterator" Path="Iterator/Iterator.project" Active="No"/>
   <Project Name="Mediator" Path="Mediator/Mediator.project" Active="No"/>
-  <Project Name="Mememtor" Path="Mememtor/Mememtor.project" Active="Yes"/>
+  <Project Name="Mememtor" Path="Mememtor/Mememtor.project" Active="No"/>
+  <Project Name="Observer" Path="Observer/Observer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -42,6 +43,7 @@
       <Project Name="Iterator" ConfigName="Debug"/>
       <Project Name="Mediator" ConfigName="Debug"/>
       <Project Name="Mememtor" ConfigName="Debug"/>
+      <Project Name="Observer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -65,6 +67,7 @@
       <Project Name="Iterator" ConfigName="Release"/>
       <Project Name="Mediator" ConfigName="Release"/>
       <Project Name="Mememtor" ConfigName="Release"/>
+      <Project Name="Observer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
