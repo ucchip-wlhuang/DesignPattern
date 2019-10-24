@@ -23,7 +23,8 @@
   <Project Name="State" Path="State/State.project" Active="No"/>
   <Project Name="NullObject" Path="NullObject/NullObject.project" Active="No"/>
   <Project Name="Strategy" Path="Strategy/Strategy.project" Active="No"/>
-  <Project Name="Template" Path="Template/Template.project" Active="Yes"/>
+  <Project Name="Template" Path="Template/Template.project" Active="No"/>
+  <Project Name="Visitor" Path="Visitor/Visitor.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -52,6 +53,7 @@
       <Project Name="NullObject" ConfigName="Debug"/>
       <Project Name="Strategy" ConfigName="Debug"/>
       <Project Name="Template" ConfigName="Debug"/>
+      <Project Name="Visitor" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -80,6 +82,7 @@
       <Project Name="NullObject" ConfigName="Release"/>
       <Project Name="Strategy" ConfigName="Release"/>
       <Project Name="Template" ConfigName="Release"/>
+      <Project Name="Visitor" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
